@@ -24,7 +24,7 @@ class testCases(unittest.TestCase):
       test = True
 
       for i in columns:
-        if i not in occupancy.columns:
+        if i not in Occupancy.columns:
           test = False
 
       self.assertTrue(test, "Your columns don't match the columns in the answer key.")
